@@ -1,71 +1,16 @@
 <p align="center">
   <a href="https://umbrel.com">
-    <img src="https://i.imgur.com/b8IeGru.jpeg" alt="Logo">
+    <img src="https://i.imgur.com/b8IeGru.jpeg" alt="Logo" width=500>
   </a>
-  <h1 align="center">umbrelOS</h1>
+  <h1 align="center">umbrelOS pre 1.0</h1>
   <p align="center">
-    A beautiful home server OS for self-hosting
-    <br />
-    <a href="https://umbrel.com"><strong>umbrel.com »</strong></a>
-    <br />
-    <br />
-    Buy an <a href="https://umbrel.com">Umbrel Home</a> or install on:
-    <br />
-    <a href="https://umbrel.com/#start">Raspberry Pi</a>
-    ·
-    <a href="#installing-umbrel">Ubuntu</a>
-    ·
-    <a href="#installing-umbrel">Debian</a>
-    <br />
-    <br />
-    <a href="https://twitter.com/umbrel">
-      <img src="https://img.shields.io/twitter/follow/umbrel?style=social" />
-    </a>
-    <a href="https://t.me/getumbrel">
-      <img src="https://img.shields.io/badge/community-chat-%235351FB">
-    </a>
-    <a href="https://reddit.com/r/getumbrel">
-      <img src="https://img.shields.io/reddit/subreddit-subscribers/getumbrel?style=social">
-    </a>
-    <a href="https://community.getumbrel.com">
-      <img src="https://img.shields.io/badge/community-forum-%235351FB">
-    </a>
-  </p>
+    Version that works on top of an existing OS like Debian or Ubuntu.
 </p>
 
-<br />
-
-[![Watch the umbrelOS 1.0 reveal](https://github.com/getumbrel/umbrel/assets/10330103/0b99b2b5-f090-464d-a865-a2eddb8d85c9)](https://www.youtube.com/watch?v=B3QtVPhOmNA)
-
-<br />
-
-<p align="center">
-At Umbrel, we believe that everyone should be able to enjoy the convenience and benefits of the cloud, without giving up ownership and control of their data.
-</p>
-
-<p align="center">
-To achieve our vision, we're building a new kind of personal server OS. Instead of paying ransoms for storing your data on someone else's computer while they auction it off to advertisers — you can now easily spin up a server and self-host your data and services at home.
-</p>
-
-<p align="center">
-Just like the cloud, but one that you own and control.
-</p>
-
-<br />
-
-https://user-images.githubusercontent.com/10330103/191728171-67b7a8b1-d2b0-45f3-aedf-06a5cfa681c7.mp4
-
-<br />
-
-## Installing umbrelOS
-> umbrelOS 0.5 in beta and should not be considered secure. See [SECURITY.md](SECURITY.md) for more details.
-
-The easiest way to get started on a custom (non Umbrel Home) system is by running [umbrelOS for Raspberry Pi 4](https://download.umbrel.com/umbrel-os.zip). Step-by-step installation instructions can be found [here](https://umbrel.com/#start).
-
-Alternatively you can install umbrelOS on any Ubuntu or Debian system (both x86 and arm64) with:
+## Installing
 
 ```bash
-curl -L https://umbrel.sh | bash
+curl -L https://raw.githubusercontent.com/jgustavoas/umbrel-legacy/master-pre-1.0/scripts/install | bash
 ```
 
 ## Umbrel App Store
@@ -138,26 +83,6 @@ Here are some of the apps available in the Umbrel App Store. For the complete li
 #### Developer Tools
 - [Code Server](https://apps.umbrel.com/app/code-server) — Run VS Code on your Umbrel
 - [Gitea](https://apps.umbrel.com/app/gitea) — A painless self-hosted Git service
-
-> If an app you're looking for isn't available on our app store yet, feel free to open an issue on the [umbrel-apps](https://github.com/getumbrel/umbrel-apps) respository to request it.
-
-## Building apps for umbrelOS
-
-If you're interested in building an app for umbrelOS or packaging an existing one, please refer to the [Umbrel App Framework documentation](https://github.com/getumbrel/umbrel-apps/blob/master/README.md).
-
-
-## Setting up a development environment
-
-With the release of umbrelOS 0.5, a lot of the underlying architecture of the project has changed. This section will be re-written with up-to-date development instructions.
-
-
-## Contributing
-
-We welcome and appreciate new contributions.
-
-If you're a developer looking to help but not sure where to begin, check out [these issues](https://github.com/getumbrel/umbrel/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) that have specifically been marked as being friendly to new contributors.
-
-If you're looking for a bigger challenge, before opening a pull request please [create an issue](https://github.com/getumbrel/umbrel/issues/new/choose) or [join our community chat](https://t.me/getumbrel) to get feedback, discuss the best way to tackle the challenge, and to ensure that there's no duplication of work.
 
 
 ## License

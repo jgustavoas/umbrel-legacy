@@ -10,7 +10,7 @@
 ## Installing
 
 ```bash
-curl -L https://raw.githubusercontent.com/jgustavoas/umbrel-legacy/master-pre-1.0/scripts/install | bash
+curl -L https://raw.githubusercontent.com/jgustavoas/umbrel-legacy/master-pre-1.0/scripts/install | bash -s -- --version v0.5.4
 ```
 
 ## Umbrel App Store
